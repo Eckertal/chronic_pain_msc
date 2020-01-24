@@ -1,0 +1,38 @@
+graph factorGraph {
+nodeH0 [shape=circle,label="H0"];
+nodeH0 -- nodefreeEnergyFactorH0;
+nodeH0 -- nodefreeEnergyFactorH1H0;
+nodeH0 -- nodefreeEnergyFactorS0H0;
+nodefreeEnergyFactorH0 [shape=box,label="freeEnergyFactor:H0|"];
+
+nodefreeEnergyFactorH1H0 [shape=box,label="freeEnergyFactor:H1|H0"];
+nodefreeEnergyFactorH1H0 -- nodeH1;
+nodeH1 [shape=circle,label="H1"];
+nodeH1 -- nodefreeEnergyFactorH2H1;
+nodeH1 -- nodefreeEnergyFactorS1H1;
+nodefreeEnergyFactorH2H1 [shape=box,label="freeEnergyFactor:H2|H1"];
+nodefreeEnergyFactorH2H1 -- nodeH2;
+nodeH2 [shape=circle,label="H2"];
+nodeH2 -- nodefreeEnergyFactorH3H2;
+nodeH2 -- nodefreeEnergyFactorS2H2;
+nodefreeEnergyFactorH3H2 [shape=box,label="freeEnergyFactor:H3|H2"];
+nodefreeEnergyFactorH3H2 -- nodeH3;
+nodeH3 [shape=circle,label="H3"];
+nodeH3 -- nodefreeEnergyFactorS3H3;
+nodefreeEnergyFactorS3H3 [shape=box,label="freeEnergyFactor:S3|H3"];
+nodefreeEnergyFactorS3H3 -- nodeS3;
+nodeS3 [shape=circle,label="S3"];
+
+nodefreeEnergyFactorS2H2 [shape=box,label="freeEnergyFactor:S2|H2"];
+nodefreeEnergyFactorS2H2 -- nodeS2;
+nodeS2 [shape=circle,label="S2"];
+
+nodefreeEnergyFactorS1H1 [shape=box,label="freeEnergyFactor:S1|H1"];
+nodefreeEnergyFactorS1H1 -- nodeS1;
+nodeS1 [shape=circle,label="S1"];
+
+nodefreeEnergyFactorS0H0 [shape=box,label="freeEnergyFactor:S0|H0"];
+nodefreeEnergyFactorS0H0 -- nodeS0;
+nodeS0 [shape=circle,label="S0"];
+
+}

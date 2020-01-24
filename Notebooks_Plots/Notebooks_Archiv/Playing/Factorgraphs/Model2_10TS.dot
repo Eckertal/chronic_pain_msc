@@ -1,0 +1,72 @@
+graph factorGraph {
+nodeP1 [shape=circle,label="P1"];
+nodeP1 -- nodefactorP1;
+nodeP1 -- nodefactorP2;
+nodeP1 -- nodefactor;
+nodefactorP1 [shape=box,label="factorP1"];
+
+nodefactorP2 [shape=box,label="factorP2"];
+nodefactorP2 -- nodeP2;
+nodeP2 [shape=circle,label="P2"];
+nodeP2 -- nodefactor;
+nodeP2 -- nodefactorP3;
+nodefactor [shape=box,label="factor"];
+
+nodefactorP3 [shape=box,label="factorP3"];
+nodefactorP3 -- nodeP3;
+nodeP3 [shape=circle,label="P3"];
+nodeP3 -- nodefactor;
+nodeP3 -- nodefactorP4;
+nodefactor [shape=box,label="factor"];
+
+nodefactorP4 [shape=box,label="factorP4"];
+nodefactorP4 -- nodeP4;
+nodeP4 [shape=circle,label="P4"];
+nodeP4 -- nodefactor;
+nodeP4 -- nodefactorP5;
+nodefactor [shape=box,label="factor"];
+
+nodefactorP5 [shape=box,label="factorP5"];
+nodefactorP5 -- nodeP5;
+nodeP5 [shape=circle,label="P5"];
+nodeP5 -- nodefactor;
+nodeP5 -- nodefactorP6;
+nodefactor [shape=box,label="factor"];
+
+nodefactorP6 [shape=box,label="factorP6"];
+nodefactorP6 -- nodeP6;
+nodeP6 [shape=circle,label="P6"];
+nodeP6 -- nodefactor;
+nodeP6 -- nodefactorP7;
+nodefactor [shape=box,label="factor"];
+
+nodefactorP7 [shape=box,label="factorP7"];
+nodefactorP7 -- nodeP7;
+nodeP7 [shape=circle,label="P7"];
+nodeP7 -- nodefactor;
+nodeP7 -- nodefactorP8;
+nodefactor [shape=box,label="factor"];
+
+nodefactorP8 [shape=box,label="factorP8"];
+nodefactorP8 -- nodeP8;
+nodeP8 [shape=circle,label="P8"];
+nodeP8 -- nodefactor;
+nodeP8 -- nodefactorP9;
+nodefactor [shape=box,label="factor"];
+
+nodefactorP9 [shape=box,label="factorP9"];
+nodefactorP9 -- nodeP9;
+nodeP9 [shape=circle,label="P9"];
+nodeP9 -- nodefactor;
+nodeP9 -- nodefactorP10;
+nodefactor [shape=box,label="factor"];
+
+nodefactorP10 [shape=box,label="factorP10"];
+nodefactorP10 -- nodeP10;
+nodeP10 [shape=circle,label="P10"];
+nodeP10 -- nodefactor;
+nodefactor [shape=box,label="factor"];
+
+nodefactor [shape=box,label="factor"];
+
+}

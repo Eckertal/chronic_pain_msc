@@ -1,0 +1,91 @@
+graph factorGraph {
+nodefactorP1 [shape=box,label="factorP1"];
+nodefactorP1 -- nodeP1;
+nodeP1 [shape=circle,label="P1"];
+nodeP1 -- nodefactorP2P1;
+nodeP1 -- nodefactorS1P1;
+nodefactorP2P1 [shape=box,label="factorP2P1"];
+nodefactorP2P1 -- nodeP2;
+nodeP2 [shape=circle,label="P2"];
+nodeP2 -- nodefactorP3P2;
+nodeP2 -- nodefactorS2P2;
+nodefactorP3P2 [shape=box,label="factorP3P2"];
+nodefactorP3P2 -- nodeP3;
+nodeP3 [shape=circle,label="P3"];
+nodeP3 -- nodefactorP4P3;
+nodeP3 -- nodefactorS3P3;
+nodefactorP4P3 [shape=box,label="factorP4P3"];
+nodefactorP4P3 -- nodeP4;
+nodeP4 [shape=circle,label="P4"];
+nodeP4 -- nodefactorP5P4;
+nodeP4 -- nodefactorS4P4;
+nodefactorP5P4 [shape=box,label="factorP5P4"];
+nodefactorP5P4 -- nodeP5;
+nodeP5 [shape=circle,label="P5"];
+nodeP5 -- nodefactorP6P5;
+nodeP5 -- nodefactorS5P5;
+nodefactorP6P5 [shape=box,label="factorP6P5"];
+nodefactorP6P5 -- nodeP6;
+nodeP6 [shape=circle,label="P6"];
+nodeP6 -- nodefactorP7P6;
+nodeP6 -- nodefactorS6P6;
+nodefactorP7P6 [shape=box,label="factorP7P6"];
+nodefactorP7P6 -- nodeP7;
+nodeP7 [shape=circle,label="P7"];
+nodeP7 -- nodefactorP8P7;
+nodeP7 -- nodefactorS7P7;
+nodefactorP8P7 [shape=box,label="factorP8P7"];
+nodefactorP8P7 -- nodeP8;
+nodeP8 [shape=circle,label="P8"];
+nodeP8 -- nodefactorP9P8;
+nodeP8 -- nodefactorS8P8;
+nodefactorP9P8 [shape=box,label="factorP9P8"];
+nodefactorP9P8 -- nodeP9;
+nodeP9 [shape=circle,label="P9"];
+nodeP9 -- nodefactorP10P9;
+nodeP9 -- nodefactorS9P9;
+nodefactorP10P9 [shape=box,label="factorP10P9"];
+nodefactorP10P9 -- nodeP10;
+nodeP10 [shape=circle,label="P10"];
+nodeP10 -- nodefactorS10P10;
+nodefactorS10P10 [shape=box,label="factorS10P10"];
+nodefactorS10P10 -- nodeS10;
+nodeS10 [shape=circle,label="S10"];
+
+nodefactorS9P9 [shape=box,label="factorS9P9"];
+nodefactorS9P9 -- nodeS9;
+nodeS9 [shape=circle,label="S9"];
+
+nodefactorS8P8 [shape=box,label="factorS8P8"];
+nodefactorS8P8 -- nodeS8;
+nodeS8 [shape=circle,label="S8"];
+
+nodefactorS7P7 [shape=box,label="factorS7P7"];
+nodefactorS7P7 -- nodeS7;
+nodeS7 [shape=circle,label="S7"];
+
+nodefactorS6P6 [shape=box,label="factorS6P6"];
+nodefactorS6P6 -- nodeS6;
+nodeS6 [shape=circle,label="S6"];
+
+nodefactorS5P5 [shape=box,label="factorS5P5"];
+nodefactorS5P5 -- nodeS5;
+nodeS5 [shape=circle,label="S5"];
+
+nodefactorS4P4 [shape=box,label="factorS4P4"];
+nodefactorS4P4 -- nodeS4;
+nodeS4 [shape=circle,label="S4"];
+
+nodefactorS3P3 [shape=box,label="factorS3P3"];
+nodefactorS3P3 -- nodeS3;
+nodeS3 [shape=circle,label="S3"];
+
+nodefactorS2P2 [shape=box,label="factorS2P2"];
+nodefactorS2P2 -- nodeS2;
+nodeS2 [shape=circle,label="S2"];
+
+nodefactorS1P1 [shape=box,label="factorS1P1"];
+nodefactorS1P1 -- nodeS1;
+nodeS1 [shape=circle,label="S1"];
+
+}

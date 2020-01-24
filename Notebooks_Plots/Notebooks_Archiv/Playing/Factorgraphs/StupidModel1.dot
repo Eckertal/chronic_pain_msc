@@ -1,0 +1,20 @@
+graph factorGraph {
+nodeT1 [shape=circle,label="T1"];
+nodeT1 -- nodefactorS1T1;
+nodeT1 -- nodefactorT2T1;
+nodeT1 -- nodefactorT1;
+nodefactorS1T1 [shape=box,label="factorS1T1"];
+nodefactorS1T1 -- nodeS1;
+nodeS1 [shape=circle,label="S1"];
+
+nodefactorT2T1 [shape=box,label="factorT2T1"];
+nodefactorT2T1 -- nodeT2;
+nodeT2 [shape=circle,label="T2"];
+nodeT2 -- nodefactorS2T2;
+nodefactorS2T2 [shape=box,label="factorS2T2"];
+nodefactorS2T2 -- nodeS2;
+nodeS2 [shape=circle,label="S2"];
+
+nodefactorT1 [shape=box,label="factorT1"];
+
+}

@@ -1,0 +1,38 @@
+graph factorGraph {
+nodeH0 [shape=circle,label="H0"];
+nodeH0 -- nodefactorH0;
+nodeH0 -- nodefactorH0X0;
+nodeH0 -- nodefactorH0H1;
+nodefactorH0 [shape=box,label="factorH0"];
+
+nodefactorH0X0 [shape=box,label="factorH0X0"];
+nodefactorH0X0 -- nodeX0;
+nodeX0 [shape=circle,label="X0"];
+
+nodefactorH0H1 [shape=box,label="factorH0H1"];
+nodefactorH0H1 -- nodeH1;
+nodeH1 [shape=circle,label="H1"];
+nodeH1 -- nodefactorH1X1;
+nodeH1 -- nodefactorH1H2;
+nodefactorH1X1 [shape=box,label="factorH1X1"];
+nodefactorH1X1 -- nodeX1;
+nodeX1 [shape=circle,label="X1"];
+
+nodefactorH1H2 [shape=box,label="factorH1H2"];
+nodefactorH1H2 -- nodeH2;
+nodeH2 [shape=circle,label="H2"];
+nodeH2 -- nodefactorH2X2;
+nodeH2 -- nodefactorH2H3;
+nodefactorH2X2 [shape=box,label="factorH2X2"];
+nodefactorH2X2 -- nodeX2;
+nodeX2 [shape=circle,label="X2"];
+
+nodefactorH2H3 [shape=box,label="factorH2H3"];
+nodefactorH2H3 -- nodeH3;
+nodeH3 [shape=circle,label="H3"];
+nodeH3 -- nodefactorH3X3;
+nodefactorH3X3 [shape=box,label="factorH3X3"];
+nodefactorH3X3 -- nodeX3;
+nodeX3 [shape=circle,label="X3"];
+
+}

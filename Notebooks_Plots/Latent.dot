@@ -1,0 +1,10 @@
+graph factorGraph {
+nodefreeEnergyFactor:var| [shape=box,label="freeEnergyFactor:var|"];
+nodefreeEnergyFactor:var| -- nodevar;
+nodevar [shape=circle,label="var"];
+nodevar -- nodefreeEnergyFactor:Sensation|var;
+nodefreeEnergyFactor:Sensation|var [shape=box,label="freeEnergyFactor:Sensation|var"];
+nodefreeEnergyFactor:Sensation|var -- nodeSensation;
+nodeSensation [shape=circle,label="Sensation"];
+
+}

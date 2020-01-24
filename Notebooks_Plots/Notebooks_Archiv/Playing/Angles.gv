@@ -1,0 +1,55 @@
+digraph G {
+	bgcolor=white
+	subgraph cluster_1 {
+		fontcolor=black
+		node [fillcolor="yellow:red" fontcolor=black gradientangle=360 label="P9:360" shape=circle style=filled]
+		n9
+		node [gradientangle=315 label=n8_315]
+		n8
+		node [gradientangle=270 label=n7_270]
+		n7
+		node [gradientangle=225 label=n6_225]
+		n6
+		node [gradientangle=180 label=n5_180]
+		n5
+		node [gradientangle=135 label=n4_135]
+		n4
+		node [gradientangle=90 label=n3_90]
+		n3
+		node [gradientangle=45 label=n2_45]
+		n2
+		node [gradientangle=0 label=n1_0]
+		n1
+		label="Hierarchical factor graph TRYOUT"
+	}
+	subgraph cluster_2 {
+		fontcolor=white
+		node [fillcolor="white:green" fontcolor=black gradientangle=360 label="P18:360" shape=circle style=radial]
+		n18
+		node [label="S9:360"]
+		n17
+		label="Radial Angle Variations (blue to green gradient)"
+		node [label="S9:360"]
+		n16
+		label="Radial Angle Variations (blue to green gradient)"
+		node [label="S9:360"]
+		n15
+		label="Radial Angle Variations (blue to green gradient)"
+		node [label="S9:360"]
+		n14
+		label="Radial Angle Variations (blue to green gradient)"
+		node [label="S9:360"]
+		n13
+		label="Radial Angle Variations (blue to green gradient)"
+		node [label="S9:360"]
+		n12
+		label="Radial Angle Variations (blue to green gradient)"
+		node [label="S9:360"]
+		n11
+		label="Radial Angle Variations (blue to green gradient)"
+		node [label="S9:360"]
+		n10
+		label="Radial Angle Variations (blue to green gradient)"
+	}
+	n5 -> n14
+}

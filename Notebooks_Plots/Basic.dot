@@ -1,0 +1,6 @@
+graph factorGraph {
+nodefreeEnergyFactor:var| [shape=box,label="freeEnergyFactor:var|"];
+nodefreeEnergyFactor:var| -- nodevar;
+nodevar [shape=circle,label="var"];
+
+}

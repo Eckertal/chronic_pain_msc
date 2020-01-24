@@ -1,0 +1,26 @@
+graph factorGraph {
+nodefactorP0 [shape=box,label="factorP0"];
+nodefactorP0 -- nodeP0;
+nodeP0 [shape=circle,label="P0"];
+nodeP0 -- nodefactorP1P0;
+nodefactorP1P0 [shape=box,label="factorP1P0"];
+nodefactorP1P0 -- nodeP1;
+nodeP1 [shape=circle,label="P1"];
+nodeP1 -- nodefactorP2P1;
+nodefactorP2P1 [shape=box,label="factorP2P1"];
+nodefactorP2P1 -- nodeP2;
+nodeP2 [shape=circle,label="P2"];
+nodeP2 -- nodefactorP3P2;
+nodefactorP3P2 [shape=box,label="factorP3P2"];
+nodefactorP3P2 -- nodeP3;
+nodeP3 [shape=circle,label="P3"];
+nodeP3 -- nodefactorP4P3;
+nodefactorP4P3 [shape=box,label="factorP4P3"];
+nodefactorP4P3 -- nodeP4;
+nodeP4 [shape=circle,label="P4"];
+nodeP4 -- nodefactorP5P4;
+nodefactorP5P4 [shape=box,label="factorP5P4"];
+nodefactorP5P4 -- nodeP5;
+nodeP5 [shape=circle,label="P5"];
+
+}

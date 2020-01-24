@@ -1,0 +1,20 @@
+graph factorGraph {
+nodeP0 [shape=circle,label="P0"];
+nodeP0 -- nodefreeEnergyFactorP0;
+nodeP0 -- nodefreeEnergyFactorP1P0;
+nodeP0 -- nodefreeEnergyFactorS0P0;
+nodefreeEnergyFactorP0 [shape=box,label="freeEnergyFactor:P0|"];
+
+nodefreeEnergyFactorP1P0 [shape=box,label="freeEnergyFactor:P1|P0"];
+nodefreeEnergyFactorP1P0 -- nodeP1;
+nodeP1 [shape=circle,label="P1"];
+nodeP1 -- nodefreeEnergyFactorS1P1;
+nodefreeEnergyFactorS1P1 [shape=box,label="freeEnergyFactor:S1P1|"];
+nodefreeEnergyFactorS1P1 -- nodeS1;
+nodeS1 [shape=circle,label="S1"];
+
+nodefreeEnergyFactorS0P0 [shape=box,label="freeEnergyFactor:S0P0|"];
+nodefreeEnergyFactorS0P0 -- nodeS0;
+nodeS0 [shape=circle,label="S0"];
+
+}
